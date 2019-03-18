@@ -1,0 +1,35 @@
+{
+    "explorer.confirmDelete": false,
+    "cmake.configureOnOpen": true,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        ".ipynb_checkpoints": true,
+        "**/tags": true
+    },
+    "workbench.colorTheme": "Default Light+",
+    "explorer.confirmDragAndDrop": false,
+    "[cython]": {
+        "editor.tabSize": 2
+    },
+    "sync-rsync.delete": true,
+    "sync-rsync.onSave": true,
+    "sync-rsync.exclude": [
+        "build",
+        "*.so",
+        "model",
+        "__pycache__"
+    ],
+    "sync-rsync.sites": [
+        {
+            "localPath": "/Users/imafamilia/Documents/deepmatcher/",
+            "remotePath": "guyos@c:/home/guyos/D/Documents/deepmatcher/"
+        },
+        {
+            "localPath": "/Users/imafamilia/Documents/deepmatcher/",
+            "remotePath": "ubuntu@10.72.102.67:/home/ubuntu/deepmatcher/"
+        }
+    ],
+    "python.linting.pylintEnabled": true
+}
