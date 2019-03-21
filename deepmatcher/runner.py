@@ -207,7 +207,7 @@ class Runner(object):
 
         # Use the pyprind bar as the default progress bar.
         if progress_style == 'bar':
-            pbar = pyprind.ProgBar(len(run_iter) // log_freq, bar_char='█', width=30)
+            pbar = pyprind.ProgBar(len(run_iter) // log_freq, bar_char='#', width=30)
 
         for batch_idx, batch in enumerate(run_iter):
             batch_start = time.time()
