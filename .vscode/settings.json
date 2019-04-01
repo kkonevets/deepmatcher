@@ -28,8 +28,8 @@
         },
         {
             "localPath": "/Users/imafamilia/Documents/deepmatcher/",
-            "remotePath": "ubuntu@10.72.102.67:/home/ubuntu/deepmatcher/"
-        }
+            "remotePath": "guyos@gpuc:/home/guyos/deepmatcher/"
+        },
     ],
     "python.linting.pylintEnabled": true
 }

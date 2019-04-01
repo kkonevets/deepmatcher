@@ -233,7 +233,7 @@ class MatchingDataset(data.Dataset):
         for batch in pyprind.prog_bar(train_iter, title='\nBuilding vocabulary'):
             for name in self.all_text_fields:
                 attr_input = getattr(batch, name)
-                counter[name].update(attr_input.data.data.view(-1))
+                counter[name].update(attr_input.data.data.view(-1).tolist())
 
         word_probs = {}
         totals = {}
