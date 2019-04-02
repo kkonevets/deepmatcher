@@ -22,13 +22,13 @@
         "__pycache__"
     ],
     "sync-rsync.sites": [
+        // {
+        //     "localPath": "/Users/imafamilia/Documents/deepmatcher/",
+        //     "remotePath": "guyos@c:/home/guyos/D/Documents/deepmatcher/"
+        // },
         {
             "localPath": "/Users/imafamilia/Documents/deepmatcher/",
-            "remotePath": "guyos@c:/home/guyos/D/Documents/deepmatcher/"
-        },
-        {
-            "localPath": "/Users/imafamilia/Documents/deepmatcher/",
-            "remotePath": "guyos@gpuc:/home/guyos/deepmatcher/"
+            "remotePath": "guyos@10.70.4.172:/home/guyos/deepmatcher/"
         },
     ],
     "python.linting.pylintEnabled": true

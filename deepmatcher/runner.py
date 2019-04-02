@@ -24,7 +24,7 @@ except NameError:
 logger = logging.getLogger(__name__)
 
 
-class Statistics(object):
+class Statistics(object):  
     """Accumulator for loss statistics, inspired by ONMT.
 
     Keeps track of the following metrics:
